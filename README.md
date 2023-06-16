@@ -5,6 +5,8 @@
   ## Description
   The Book Search Engine application serves the purpose of allowing its users to search and read a little about books they are interested in and considering to buy or rent. A user will be allowed to save books as favorites and be saved to their profile page. 
 
+  EDIT:I WAS ABLE TO DEPLOY IT TO THE LOCALHOST BUT IT FAILED HEROKU. IT SAID THE BUILD WAS SUCCESSFUL BUT  GAVE THIS ERROR.
+  
   I am having difficulty loading the client side on to the page. When i run npm run start it loads the link to the localhost but then showed an error in the console log of
    Uncaught SyntaxError: Unexpected token <..... I read this https://idiallo.com/javascript/uncaught-syntaxerror-unexpected-token#n and tried to comment out the html file in the build file, that caused the console log error message to stop but a blank screen just appears now. So I just refactored as best I could.
 
@@ -40,7 +42,7 @@
 
 ## Tests
   The tests below will show how the application is run.
-  I didn’t include any tests.
+  
 
 ## Questions
   If you have any questions about the application or repository please contact me at 
