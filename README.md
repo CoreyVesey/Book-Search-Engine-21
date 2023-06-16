@@ -13,7 +13,8 @@
    Uncaught SyntaxError: Unexpected token <..... I read this https://idiallo.com/javascript/uncaught-syntaxerror-unexpected-token#n and tried to comment out the html file in the build file, that caused the console log error message to stop but a blank screen just appears now. So I just refactored as best I could.
 
    References:
-   https://arunrajeevan.medium.com/understanding-mongoose-connection-options-2b6e73d96de1 
+   1. https://arunrajeevan.medium.com/understanding-mongoose-connection-options-2b6e73d96de1 
+   2. Module 21 Activity 6 for the resolvers and typeDef code
    
 
 ## Table of Contents
