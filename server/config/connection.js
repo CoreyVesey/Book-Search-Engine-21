@@ -1,11 +1,7 @@
 const mongoose = require('mongoose');
 
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/googlebooks', {
-    useCreateIndex: true,
-    useFindAndModify: false,
-    useUnifiedTopology: true,
-    useNewUrlParser: true,
-});
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/googlebooks');
+   
 
 
 module.exports = mongoose.connection;
